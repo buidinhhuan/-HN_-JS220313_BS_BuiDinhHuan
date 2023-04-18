@@ -1,0 +1,29 @@
+.Information{
+     font-size: 20px;
+     border: 1px solid#333;
+     text-align: center;
+      margin: 0px 350px;
+     margin-bottom: 50px;
+     padding: 20px ;
+}
+
+
+.manage{
+    font-size: 20px;
+     border: 1px solid#333;
+     text-align: center;
+      margin: 0px 350px;
+    padding: 30px;
+     
+}
+td {
+  border: 1px solid#333;
+  background-color: aquamarine;
+}
+th {
+  border: 1px solid#333;
+  background-color: darkkhaki;
+}
+.table{
+padding-top: 10px;
+}

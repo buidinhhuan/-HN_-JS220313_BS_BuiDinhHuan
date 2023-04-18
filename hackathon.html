@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nâng cao</title>
+    <link rel="stylesheet" href="./hackathon.css" />
+  </head>
+  <body>
+
+
+    <section id="Information" class="Information">
+      <form id="main-form">
+        <h2>Thông tin học viên</h2>
+      <div>
+        <label for="">Họ Và Tên</label>
+      <input type="text"
+       id="UseName"
+       name="UseName"
+        placeholder="vui lòng nhập tên " />
+      </div>
+
+     <div>
+        <label for="">Email</label>
+        <input type="text" 
+        id="Email"
+        name="Email"
+         placeholder="vui lòng nhập Email" />
+     </div>
+
+     <div>
+      <label for="">Số Điện Thoại</label>
+      <input
+        type="text"
+        id="telephone"
+        name="telephone"
+        placeholder=" vui lòng nhập số diện thoại"
+      /> 
+     </div>
+
+      <div>
+        <label for="">Quê quán</label>
+      <input type="text" 
+      id="Address"
+      name="Address"
+      placeholder="vui lòng nhập quê quán" />
+      </div>
+      
+      <label for="gender">giới tính</label>
+      <select name="gender" id="gender">
+        <option value="nam">nam</option>
+        <option value="nữ">nữ</option>
+      </select>
+
+    
+
+      <button id="save">lưu lại</button>
+      </form>
+    </section>
+
+
+
+
+    <section id="manage" class="manage">
+      <h2>danh sách học viên</h2>
+      <label for="">Tìm kiếm học viên</label>
+      <input type="text" />
+      <button>seach</button><br />
+
+      <table id="table" class="table">
+       <thead>
+        <tr>
+            <th>#</th>
+            <th>Ho tên</th>
+            <th>email</th>
+            <th>số điện thoại</th>
+            <th>Địa chỉ</th>
+            <th>Gender</th>
+            <th>Hành động</th>
+            <th>sắp xếp(alpha)</th>
+          </tr>
+       </thead>
+
+        <tbody id="tbody">
+            <!-- <tr>
+                <th>1</th>
+                <td>rikkei</td>
+                <td>rikeia@gmail.com</td>
+                <td>0823868888</td>
+                <td>hà nôi</td>
+                <td>nam</td>
+                <td>
+                  <button>edit</button>
+                  <button>delete</button>
+                </td>
+                <td rowspan="0"></td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>academy</td>
+                <td>academy@gmail.com</td>
+                <td>0823868888</td>
+                <td>hà nôi</td>
+                <td>nữ</td>
+                <td>
+                  <button>edit</button>
+                  <button>delete</button>
+                </td>
+                    
+              </tr> -->
+        </tbody>
+      </table>
+    </section>
+
+    <script src="./hackathon.js"></script>
+  </body>
+</html>
